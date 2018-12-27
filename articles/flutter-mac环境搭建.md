@@ -55,7 +55,7 @@ flutter doctor
 [!] Android Studio (not installed)
 ```
 
-上面输出的内容会告诉你完成设置需要执行哪一些命令，当你安装完那些包之后 ，再次执行 `flutter doctor` 验证是否 ok。
+上面输出的内容会告诉你完成设置需要执行哪一些命令，当你安装完那些包之后，再次执行 `flutter doctor` 验证是否 ok。
 
 ## 更新环境变量
 

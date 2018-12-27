@@ -2,7 +2,7 @@
 
 ---
 
-在 Flutter 里，基本上所有的东西都是组件。Flutter 也已经有了现成的底部导航栏组件了 -- BottomNavigationBar，所以用 Flutter 实现底部导航，其实是很简单地一件事情，只需要知道怎么使用就好了。
+在 Flutter 里，基本上所有的东西都是组件。Flutter 也已经有了现成的底部导航栏组件了 -- BottomNavigationBar，所以用 Flutter 实现底部导航，其实是很简单地一件事情，只需要知道怎么使用就好了。
 
 1. 首先，利用 IDE 实现代码大致的结构
 
@@ -29,7 +29,7 @@ class _BottomNavState extends State<BottomNav> {
 
 vs code 编辑器会 dart 的支持是十分友好的了，也有很多提示，在编码时可以充分利用。目前唯一的缺点应该就是缺少 flutter inspector 了。
 
-2.  实现\_BottomNavState 的 build 方法
+2. 实现\_BottomNavState 的 build 方法
 
 ```dart
 class _BottomNavState extends State<BottomNav> {
@@ -57,9 +57,9 @@ class _BottomNavState extends State<BottomNav> {
 
 3. 添加交互
 
-到这里，我们已经实现了大概的效果，但是你会发现，点击底部的图标切换，是没有效果的。现在，就给底部导航添加交互行为。
+到这里，我们已经实现了大概的效果，但是你会发现，点击底部的图标切换，是没有效果的。现在，就给底部导航添加交互行为。
 
-- 定义变量\_currentIndex,  并将 BottomNavagationBar 的 currentIndex 的  值用变量 \_currentIndex 代替
+- 定义变量\_currentIndex，并将 BottomNavagationBar 的 currentIndex 的值用变量 \_currentIndex 代替
 
 ```dart
 int _currentIndex = 0;
