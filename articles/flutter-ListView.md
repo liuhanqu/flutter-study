@@ -37,7 +37,7 @@ class ListViewDemo extends StatelessWidget {
 
 ## ListView.builder()
 
-构造函数 builder 要求传入两个个参数，`itemCount` 和 `itemBuilder` 。前者规定 列表数目的多少，后者决定了每个列表如何渲染。跟 ListView 不同的点在于，这是懒加载的，假如有 1000 个列表，初始渲染时并不会所有都渲染，而只会特定数量的 item ，这对于性能和用户体验来说，是很好的提升。 你可以对比用 ListView 和用 ListView.builder 渲染 1000 个列表时，体验是否有差别。
+构造函数 builder 要求传入两个参数，`itemCount` 和 `itemBuilder` 。前者规定列表数目的多少，后者决定了每个列表如何渲染。跟 ListView 不同的点在于，这是懒加载的，假如有 1000 个列表，初始渲染时并不会所有都渲染，而只会特定数量的 item ，这对于性能和用户体验来说，是很好的提升。 你可以对比用 ListView 和用 ListView.builder 渲染 1000 个列表时，体验是否有差别。
 
 ```dart
 class ListViewDemo extends StatelessWidget {
