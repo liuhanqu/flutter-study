@@ -75,7 +75,7 @@ TabBarView(
 
 ![](../images/tab_bar/1.jpg)
 
-可能，有一些人的需求是会不需要 app bar 中的标题部分，直接把 Tab 置于最上方的位置，这个其实也不难处理。之前我们是把 TabBar 放在 AppBar 的 bottom 位置，现在放在 title 位置就好了嘛
+可能，有一些人的需求是会不需要 app bar 中的标题部分，直接把 Tab 置于最上方的位置，这个其实也不难处理。之前我们是把 TabBar 放在 AppBar 的 bottom 位置，现在放在 title 位置就好了嘛
 ```dart
 DefaultTabController(
   length: 3,
@@ -102,5 +102,7 @@ DefaultTabController(
 ## 参考资料
 
 [Components-Tabs](https://material.io/design/components/tabs.html#theming)
+
 [DefaultTabController class](https://docs.flutter.io/flutter/material/DefaultTabController-class.html)
+
 [Tabbed AppBar](https://flutter.io/docs/catalog/samples/tabbed-app-bar)
